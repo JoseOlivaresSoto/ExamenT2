@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+#gameCanvas {
+    background-image: url('Img/fondo.png');
+    background-size: cover;
+    cursor: url('Img/soldado.png'), auto;
+}
+
+header, footer {
+    background-color: #212121;
+    color: white;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    margin-top: 20px;
+}

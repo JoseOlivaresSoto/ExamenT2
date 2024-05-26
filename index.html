@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodge the Zombies</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="text-center py-3 bg-dark text-white">
+        <h1>Dodge the Zombies</h1>
+    
+    </header>
+    <main class="container text-center my-4">
+        <canvas id="gameCanvas" width="800" height="600" class="border"></canvas>
+        <div id="score" class="text-white my-2">Puntuación: 0</div>
+        <div id="highScore" class="text-white mb-2">Puntuación más alta: 0</div>
+        <button id="startButton" class="btn btn-primary">Iniciar Juego</button>
+        <div id="instructions" class="text-white mt-4">
+            <h3>Instrucciones</h3>
+            <p>Esquiva los Zombies que aparecen en la pantalla moviendo el puntero. ¡QUE NO TE COMAN!</p>
+        </div>
+    </main>
+    <footer class="text-center py-3 bg-dark text-white">
+        <p>Jose Francisco Olivares Soto</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
